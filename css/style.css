@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/tunel.gif);
+    background-size: cover;
+}
+
+.container {
+    width: 25rem;
+    height: 7rem;
+}
+
+.container h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 255);
+}
+
+.container input {
+    width: 12rem;
+    height: 2.5rem;
+    background-color: rgb(201, 123, 207);
+    border: none;
+    border-radius: 20px;
+}
+
+#nao:hover {
+    display: none;
+}
